@@ -23,13 +23,13 @@
 * UI: Tailwind CSS
 
 ## ✅ 2. Backend Setup (server/)
-#### Install dependencies
-npm init -y
+> Install dependencies
+### npm init -y
 npm install express socket.io jsonwebtoken bcryptjs drizzle-orm pg cors redis dotenv
 npm install -D typescript ts-node @types/express @types/node @types/jsonwebtoken @types/bcryptjs
 
 >🔹 File Structure
-#### server/
+### server/
     ├── src/
     │   ├── index.ts
     │   ├── config/
