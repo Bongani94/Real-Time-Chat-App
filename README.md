@@ -28,7 +28,7 @@ npm init -y
 npm install express socket.io jsonwebtoken bcryptjs drizzle-orm pg cors redis dotenv
 npm install -D typescript ts-node @types/express @types/node @types/jsonwebtoken @types/bcryptjs
 
->🔹 File Structure
+##🔹 File Structure
 ### server/
     ├── src/
     │   ├── index.ts
@@ -50,10 +50,10 @@ npm install -D typescript ts-node @types/express @types/node @types/jsonwebtoken
     └── tsconfig.json
 
 ## Drizzle + PostgreSQL Setup
-** npx drizzle-kit init
+### npx drizzle-kit init
 
 ## Frontend Setup (client/)
-###🔹 Dependencies
+>🔹 Dependencies
   #### npx create-next-app@latest chat-client --typescript
     cd chat-client
     npm install socket.io-client axios jwt-decode
