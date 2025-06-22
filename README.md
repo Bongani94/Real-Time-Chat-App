@@ -23,13 +23,13 @@
 * UI: Tailwind CSS
 
 ## ✅ 2. Backend Setup (server/)
-**🔹 Install dependencies
+###🔹 Install dependencies
 npm init -y
 npm install express socket.io jsonwebtoken bcryptjs drizzle-orm pg cors redis dotenv
 npm install -D typescript ts-node @types/express @types/node @types/jsonwebtoken @types/bcryptjs
 
 >🔹 File Structure
-** server/
+### server/
     ├── src/
     │   ├── index.ts
     │   ├── config/
@@ -53,7 +53,7 @@ npm install -D typescript ts-node @types/express @types/node @types/jsonwebtoken
 ** npx drizzle-kit init
 
 ## Frontend Setup (client/)
-**🔹 Dependencies
-  ** npx create-next-app@latest chat-client --typescript
+###🔹 Dependencies
+  #### npx create-next-app@latest chat-client --typescript
     cd chat-client
     npm install socket.io-client axios jwt-decode
