@@ -23,13 +23,13 @@
 * UI: Tailwind CSS
 
 ## ✅ 2. Backend Setup (server/)
-###🔹 Install dependencies
+#### Install dependencies
 npm init -y
 npm install express socket.io jsonwebtoken bcryptjs drizzle-orm pg cors redis dotenv
 npm install -D typescript ts-node @types/express @types/node @types/jsonwebtoken @types/bcryptjs
 
-##🔹 File Structure
-### server/
+>🔹 File Structure
+#### server/
     ├── src/
     │   ├── index.ts
     │   ├── config/
@@ -49,8 +49,8 @@ npm install -D typescript ts-node @types/express @types/node @types/jsonwebtoken
     ├── .env
     └── tsconfig.json
 
-## Drizzle + PostgreSQL Setup
-### npx drizzle-kit init
+# Drizzle + PostgreSQL Setup
+#### npx drizzle-kit init
 
 ## Frontend Setup (client/)
 >🔹 Dependencies
